@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testscripts.TC_02_To_Verify_Liability_Self_Flow"/>
+      <class name="testscripts.TC_01_To_Verify_Valid_Credentials"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
